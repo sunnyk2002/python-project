@@ -32,6 +32,23 @@ A command-line tool that automatically organizes folders by sorting files into c
 **Tech:** Python, argparse, pathlib, filesystem automation
 
 ---
+🎬 Movie Recommendation System
+
+A simple machine learning project that recommends movies based on content similarity. The system analyzes movie descriptions and suggests similar films using natural language processing techniques.
+
+**Features**
+
+* Recommends movies based on description similarity
+
+* Uses TF-IDF vectorization to convert text into numerical features
+
+* Calculates similarity between movies using cosine similarity
+
+* Allows users to input a movie title and receive recommendations
+
+**Tech:** Python, pandas, scikit-learn
+
+---
 
 ## Tech Stack
 
