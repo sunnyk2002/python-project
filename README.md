@@ -69,6 +69,13 @@ A simple machine learning project that recommends movies based on content simila
 
 ---
 
+## Tests
+
+Run:
+
+* `python3 -m pip install -r requirements-dev.txt`
+* `python3 -m pytest`
+
 ## Contact
 
 * LinkedIn: https://www.linkedin.com/in/srujanakuppala

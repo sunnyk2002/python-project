@@ -1,4 +1,4 @@
-echo "# Python
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -9,10 +9,15 @@ dist/
 build/
 *.egg-info/
 
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
 # IDEs
 .vscode/
 .idea/
 
 # OS
 .DS_Store
-Thumbs.db" > .gitignore
+Thumbs.db
