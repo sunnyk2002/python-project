@@ -32,7 +32,7 @@ A command-line tool that automatically organizes folders by sorting files into c
 **Tech:** Python, argparse, pathlib, filesystem automation
 
 ---
-🎬 Movie Recommendation System
+### 🎬 Movie Recommendation System
 
 A simple machine learning project that recommends movies based on content similarity. The system analyzes movie descriptions and suggests similar films using natural language processing techniques.
 
