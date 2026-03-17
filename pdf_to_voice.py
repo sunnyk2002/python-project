@@ -97,7 +97,7 @@ def _parse_pages_spec(spec: str, total_pages: int) -> list[int]:
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
-        prog="pdf-to-voice.py",
+        prog="pdf_to_voice.py",
         description="Read a PDF out loud using PyPDF2 + pyttsx3.",
     )
     p.add_argument("pdf", nargs="?", default=None, help="Path to a PDF. If omitted, opens a file picker.")
@@ -254,4 +254,3 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv[1:]))
-
